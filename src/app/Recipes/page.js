@@ -5,7 +5,7 @@ import { firestore } from '../firebase';
 import { collection, doc, getDocs, getDoc, setDoc, deleteDoc } from 'firebase/firestore';
 import { useEffect, useState } from 'react';
 import { UserAuth } from "../context/AuthContext";
-import { axios } from "axios";
+import { axios } from 'axios';
 
 export default function Recipes() {
     const [pantry, setPantry] = useState([]);
