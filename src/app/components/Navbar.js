@@ -46,7 +46,7 @@ const Navbar = () => {
           <Button color="inherit" component={Link} href="/inventory">
             Inventory
           </Button>
-          <Button color="inherit" component={Link} href="/recipes">
+          <Button color="inherit" component={Link} href="/Recipes">
             Recipes
           </Button>
         </Box>
